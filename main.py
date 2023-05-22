@@ -38,7 +38,7 @@ def handle_message(message):
         prs = Presentation()
         slide = prs.slides.add_slide(prs.slide_layouts[6])
         slide.background.fill.solid()
-        slide.background.fill.fore_color.rgb = (255, 255, 255)
+        #slide.background.fill.fore_color.rgb = (255, 255, 255)
         left = top = 0
         slide.shapes.add_picture('image.jpg', left, top, width=Inches(10), height=Inches(7.5))
         # Add a text box to the slide
