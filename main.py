@@ -43,7 +43,7 @@ def handle_message(message):
         slide.shapes.add_picture('image.jpg', left, top, width=Inches(10), height=Inches(7.5))
         # Add a text box to the slide
         textbox = slide.shapes.add_textbox(Inches(0), Inches(6.5), Inches(10), Inches(0.5))
-        textbox.text = 'Created with: GCPPT_bot'
+        textbox.text = 'Created by: Gemechis Chala'
         # Save the PowerPoint presentation to a file
         prs.save('presentation.pptx')
         # Send the PowerPoint presentation back to the user
